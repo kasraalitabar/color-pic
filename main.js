@@ -1,4 +1,4 @@
-const box = document.querySelectorAll('.ina')
+const box = document.querySelector('.ina')
 
 function color(){
     for(let i=0; i < box.length; i++){
