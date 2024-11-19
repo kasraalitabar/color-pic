@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all border gap-1 grid grid-cols-3 w-96 h-96 mx-auto border">
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+        <div onclick="color()" class="in"></div>
+    </div>
+</body>
+</html>
